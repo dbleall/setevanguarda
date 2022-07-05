@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\SupliersController;
+use App\Http\Controllers\InfosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,12 +45,6 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])
 });
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
-    Route::get('/info', function () {
-        return view('info');
-    })->name('info');
-});
-
-Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
     Route::get('/clients', function () {
         return view('clients');
     })->name('clients');
@@ -60,4 +55,5 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])
      Route::resource('categories', CategoryController::class);
      Route::resource('products', ProductsController::class);
      Route::resource('supliers', SupliersController::class);
+     Route::resource('infos', InfosController::class);
 });

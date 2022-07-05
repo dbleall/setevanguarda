@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Info;    
 use Illuminate\Http\Request;
 
-class InfoController extends Controller
+class InfosController extends Controller
 {
     /**
     * Display a listing of the resource.
@@ -14,9 +14,7 @@ class InfoController extends Controller
     */
     public function index(){
 
-
         $infos = Info::latest()->paginate(5);
-      
         return view('infos.index',compact('infos'))->with('i', (request()->input('page', 1) - 1) * 5);
 
     }
