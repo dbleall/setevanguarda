@@ -182,19 +182,19 @@
                                     <div class="shopping-item">
                                         <div class="dropdown-cart-header">
                                             <span>2 Items</span>
-                                            <a href="cart.html">View Cart</a>
+                                            <a href="{{ url('cart') }}">View Cart</a>
                                         </div>
                                         <ul class="shopping-list">
                                             <li>
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="{{ url('product-details') }}"><img
                                                             src="assets/images/header/cart-items/item1.jpg" alt="#"></a>
                                                 </div>
 
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">
+                                                    <h4><a href="{{ url('product-details') }}">
                                                             Apple Watch Series 6</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                                 </div>
@@ -203,11 +203,11 @@
                                                 <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                 <div class="cart-img-head">
-                                                    <a class="cart-img" href="product-details.html"><img
+                                                    <a class="cart-img" href="{{ url('product-details') }}"><img
                                                             src="assets/images/header/cart-items/item2.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                    <h4><a href="{{ url('product-details') }}">Wi-Fi Smart Camera</a></h4>
                                                     <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                                 </div>
                                             </li>
@@ -218,7 +218,7 @@
                                                 <span class="total-amount">$134.00</span>
                                             </div>
                                             <div class="button">
-                                                <a href="checkout.html" class="btn animate">Checkout</a>
+                                                <a href="{{ url('checkout') }}" class="btn animate">Checkout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -240,31 +240,31 @@
                         <div class="mega-category-menu">
                             <span class="cat-button"><i class="lni lni-menu"></i>Todas as Categorias</span>
                             <ul class="sub-category">
-                                <li><a href="product-grids.html">Eletrônicos <i class="lni lni-chevron-right"></i></a>
+                                <li><a href="{{ url('product-grids') }}">Eletrônicos <i class="lni lni-chevron-right"></i></a>
                                     <ul class="inner-sub-category">
-                                        <li><a href="product-grids.html">Cameras Digitais</a></li>
-                                        <li><a href="product-grids.html">Camcorders</a></li>
-                                        <li><a href="product-grids.html">Camera Drones</a></li>
-                                        <li><a href="product-grids.html">Smart Watches</a></li>
-                                        <li><a href="product-grids.html">Headphones</a></li>
-                                        <li><a href="product-grids.html">MP3 Players</a></li>
-                                        <li><a href="product-grids.html">Microphones</a></li>
-                                        <li><a href="product-grids.html">Chargers</a></li>
-                                        <li><a href="product-grids.html">Batteries</a></li>
-                                        <li><a href="product-grids.html">Cables & Adapters</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Cameras Digitais</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Camcorders</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Camera Drones</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Smart Watches</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Headphones</a></li>
+                                        <li><a href="{{ url('product-grids') }}">MP3 Players</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Microphones</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Chargers</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Batteries</a></li>
+                                        <li><a href="{{ url('product-grids') }}">Cables & Adapters</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="product-grids.html">accessories</a></li>
-                                <li><a href="product-grids.html">Televisions</a></li>
-                                <li><a href="product-grids.html">best selling</a></li>
-                                <li><a href="product-grids.html">top 100 offer</a></li>
-                                <li><a href="product-grids.html">sunglass</a></li>
-                                <li><a href="product-grids.html">watch</a></li>
-                                <li><a href="product-grids.html">man’s product</a></li>
-                                <li><a href="product-grids.html">Home Audio & Theater</a></li>
-                                <li><a href="product-grids.html">Computers & Tablets </a></li>
-                                <li><a href="product-grids.html">Video Games </a></li>
-                                <li><a href="product-grids.html">Home Appliances </a></li>
+                                <li><a href="{{ url('product-grids') }}">accessories</a></li>
+                                <li><a href="{{ url('product-grids') }}">Televisions</a></li>
+                                <li><a href="{{ url('product-grids') }}">best selling</a></li>
+                                <li><a href="{{ url('product-grids') }}">top 100 offer</a></li>
+                                <li><a href="{{ url('product-grids') }}">sunglass</a></li>
+                                <li><a href="{{ url('product-grids') }}">watch</a></li>
+                                <li><a href="{{ url('product-grids') }}">man’s product</a></li>
+                                <li><a href="{{ url('product-grids') }}">Home Audio & Theater</a></li>
+                                <li><a href="{{ url('product-grids') }}">Computers & Tablets </a></li>
+                                <li><a href="{{ url('product-grids') }}">Video Games </a></li>
+                                <li><a href="{{ url('product-grids') }}">Home Appliances </a></li>
                             </ul>
                         </div>
                         <!-- End Mega Category Menu -->
@@ -287,12 +287,10 @@
                                             data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Páginas</a>
                                         <ul class="sub-menu collapse" id="submenu-1-2">
-                                            <li class="nav-item"><a href="about-us.html">Sobre</a></li>
-                                            <li class="nav-item"><a href="faq.html">Faq</a></li>
-                                            <li class="nav-item"><a href="login.html">Login</a></li>
-                                            <li class="nav-item"><a href="{{ url('clients_register')}}">Register</a></li>
-                                            <li class="nav-item"><a href="mail-success.html">Mail Success</a></li>
-                                            <li class="nav-item"><a href="404.html">404 Error</a></li>
+                                            <li class="nav-item"><a href="{{ url('about-us') }}">Sobre</a></li>
+                                            <li class="nav-item"><a href="{{ url('faq') }}">Faq</a></li>
+                                            <li class="nav-item"><a href="{{ url('login') }}">Login</a></li>
+                                            <li class="nav-item"><a href="{{ url('clients_register')}}">Registrar</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -300,11 +298,11 @@
                                             data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Shop</a>
                                         <ul class="sub-menu collapse" id="submenu-1-3">
-                                            <li class="nav-item"><a href="product-grids.html">Shop Grid</a></li>
-                                            <li class="nav-item"><a href="product-list.html">Shop List</a></li>
-                                            <li class="nav-item"><a href="product-details.html">shop Single</a></li>
-                                            <li class="nav-item"><a href="cart.html">Cart</a></li>
-                                            <li class="nav-item"><a href="checkout.html">Checkout</a></li>
+                                            <li class="nav-item"><a href="{{ url('product-grids') }}">Shop Grid</a></li>
+                                            <li class="nav-item"><a href="{{ url('product-list') }}">Shop List</a></li>
+                                            <li class="nav-item"><a href="{{ url('product-details') }}">shop Single</a></li>
+                                            <li class="nav-item"><a href="{{ url('cart') }}">Cart</a></li>
+                                            <li class="nav-item"><a href="{{ url('checkout') }}">Checkout</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -312,15 +310,15 @@
                                             data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Blog</a>
                                         <ul class="sub-menu collapse" id="submenu-1-4">
-                                            <li class="nav-item"><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a>
+                                            <li class="nav-item"><a href="{{ url('blog-grid-sidebar') }}">Blog Grid Sidebar</a>
                                             </li>
-                                            <li class="nav-item"><a href="blog-single.html">Blog Single</a></li>
-                                            <li class="nav-item"><a href="blog-single-sidebar.html">Blog Single
+                                            <li class="nav-item"><a href="{{ url('blog-single') }}">Blog Single</a></li>
+                                            <li class="nav-item"><a href="{{ url('blog-single-sidebar') }}">Blog Single
                                                     Sibebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation">Contact Us</a>
+                                        <a href="{{ url('contact') }}" aria-label="Toggle navigation">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
@@ -368,12 +366,12 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-12">
                             <div class="footer-logo">
-                                <a href="index.html">
+                                <a href="{{ url('home') }}">
                                     <img src="assets/images/logo/white-logo.svg" alt="#">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-8 col-12">
+                        {{-- <div class="col-lg-9 col-md-8 col-12">
                             <div class="footer-newsletter">
                                 <h4 class="title">
                                     Subscribe to our Newsletter
@@ -388,7 +386,7 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

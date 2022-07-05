@@ -37,6 +37,22 @@ Route::get('clients_register', function () {
     return view('clients_register');
 }); 
 
+Route::get('product-grids', function () {
+    return view('product-grids');
+}); 
+Route::get('product-details', function () {
+    return view('product-details');
+}); 
+Route::get('blog-single-sidebar', function () {
+    return view('blog-single-sidebar');
+}); 
+Route::get('cart', function () {
+    return view('cart');
+}); 
+
+
+
+
 
 Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
     Route::get('/dashboard', function () {
