@@ -25,6 +25,10 @@ Route::get('principal', function () {
     return view('home');
 });
 
+Route::get('home', function () {
+    return view('home');
+});
+
 Route::get('sobre', function () {
     return view('about-us');
 }); 
@@ -43,11 +47,17 @@ Route::get('product-grids', function () {
 Route::get('product-details', function () {
     return view('product-details');
 }); 
+Route::get('product-list', function () {
+    return view('product-list');
+}); 
 Route::get('blog-single-sidebar', function () {
     return view('blog-single-sidebar');
 }); 
 Route::get('cart', function () {
     return view('cart');
+}); 
+Route::get('faq', function () {
+    return view('faq');
 }); 
 
 

@@ -85,7 +85,7 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-middle">
                             <ul class="useful-links">
-                                <li><a href="{{ url('principal')}}">Principal</a></li>
+                                <li><a href="{{ url('home')}}">Principal</a></li>
                                 <li><a href="{{ url('sobre') }}">Sobre</a></li>
                                 <li><a href="{{ url('contato') }}">Contato</a></li>
                             </ul>
@@ -125,7 +125,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3 col-7">
                         <!-- Start Header Logo -->
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="{{ url('/') }}">
                             Sete Distribuidora
                         </a>
                         <!-- End Header Logo -->
@@ -135,7 +135,7 @@
                         <div class="main-menu-search">
                             <!-- navbar search start -->
                             <div class="navbar-search search-style-5">
-                                <div class="search-select">
+                                {{-- <div class="search-select">
                                     <div class="select-position">
                                         <select id="select1">
                                             <option selected>Tudo</option>
@@ -146,7 +146,7 @@
                                             <option value="5">Categoria 05</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="search-input">
                                     <input type="text" placeholder="Buscar">
                                 </div>
@@ -318,7 +318,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('contact') }}" aria-label="Toggle navigation">Contact Us</a>
+                                        <a href="{{ url('contato') }}" aria-label="Toggle navigation">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
